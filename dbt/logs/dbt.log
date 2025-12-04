@@ -1,0 +1,133 @@
+[0m22:15:40.983535 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7467366722a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7467363c8b00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x746735ddabd0>]}
+
+
+============================== 22:15:41.010685 | 42471d84-a36d-41dd-bb6b-6564443fb3a4 ==============================
+[0m22:15:41.010685 [info ] [MainThread]: Running with dbt=1.10.15
+[0m22:15:41.012487 [debug] [MainThread]: running dbt with arguments {'invocation_command': 'dbt init calgary_dbt', 'cache_selected_only': 'False', 'use_experimental_parser': 'False', 'introspect': 'True', 'printer_width': '80', 'static_parser': 'True', 'log_path': 'logs', 'no_print': 'None', 'indirect_selection': 'eager', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'debug': 'False', 'empty': 'None', 'log_cache_events': 'False', 'profiles_dir': '/home/jako/.dbt', 'version_check': 'True', 'write_json': 'True', 'warn_error': 'None', 'log_format': 'default', 'fail_fast': 'False', 'use_colors': 'True', 'partial_parse': 'True', 'target_path': 'None'}
+[0m22:15:41.172154 [info ] [MainThread]: Creating dbt configuration folder at /home/jako/.dbt
+[0m22:15:41.238954 [debug] [MainThread]: Starter project path: /home/jako/Desktop/Data_Solutions/calgary_project/cenv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m22:15:41.263526 [info ] [MainThread]: 
+Your new dbt project "calgary_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m22:15:41.265676 [info ] [MainThread]: Setting up your profile.
+[0m22:25:39.580297 [info ] [MainThread]: Profile calgary_dbt written to /home/jako/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m22:25:39.602135 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 598.71985, "process_in_blocks": "78680", "process_kernel_time": 0.632367, "process_mem_max_rss": "104584", "process_out_blocks": "80", "process_user_time": 3.80619}
+[0m22:25:39.604453 [debug] [MainThread]: Command `dbt init` succeeded at 22:25:39.603980 after 598.72 seconds
+[0m22:25:39.606267 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74673669cfe0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x746735d4b1a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x746735ad5d00>]}
+[0m22:25:39.608235 [debug] [MainThread]: Flushing usage events
+[0m22:25:40.546352 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:26:05.313480 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73da4dff0c80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73da4eac7b60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73da4f321bb0>]}
+
+
+============================== 22:26:05.317108 | 47ddd75f-a123-4547-8f0d-9224f70a12df ==============================
+[0m22:26:05.317108 [info ] [MainThread]: Running with dbt=1.10.15
+[0m22:26:05.317978 [debug] [MainThread]: running dbt with arguments {'indirect_selection': 'eager', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_experimental_parser': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'log_path': 'logs', 'printer_width': '80', 'log_format': 'default', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'invocation_command': 'dbt init calgary_dbt', 'version_check': 'True', 'profiles_dir': '/home/jako/.dbt', 'warn_error': 'None', 'write_json': 'True', 'use_colors': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'no_print': 'None', 'target_path': 'None', 'debug': 'False', 'empty': 'None', 'quiet': 'False'}
+[0m22:26:05.330444 [info ] [MainThread]: A project called calgary_dbt already exists here.
+[0m22:26:05.331564 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.08995125, "process_in_blocks": "0", "process_kernel_time": 0.146847, "process_mem_max_rss": "100684", "process_out_blocks": "24", "process_user_time": 1.81611}
+[0m22:26:05.332158 [debug] [MainThread]: Command `dbt init` succeeded at 22:26:05.332035 after 0.09 seconds
+[0m22:26:05.332662 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73da4e08f530>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73da4d8c6b70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73da4d737aa0>]}
+[0m22:26:05.333196 [debug] [MainThread]: Flushing usage events
+[0m22:26:06.032113 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:27:02.592623 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70d48be3b260>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70d48af639e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70d48be39a00>]}
+
+
+============================== 22:27:02.596390 | 8d36218b-5c05-4ca1-8873-f08e6d035d68 ==============================
+[0m22:27:02.596390 [info ] [MainThread]: Running with dbt=1.10.15
+[0m22:27:02.597095 [debug] [MainThread]: running dbt with arguments {'introspect': 'True', 'log_format': 'default', 'send_anonymous_usage_stats': 'True', 'profiles_dir': '/home/jako/.dbt', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'static_parser': 'True', 'quiet': 'False', 'warn_error': 'None', 'write_json': 'True', 'target_path': 'None', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug', 'printer_width': '80', 'fail_fast': 'False', 'debug': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'empty': 'None', 'no_print': 'None', 'log_path': 'logs', 'use_experimental_parser': 'False', 'version_check': 'True', 'use_colors': 'True'}
+[0m22:27:02.652713 [info ] [MainThread]: dbt version: 1.10.15
+[0m22:27:02.654094 [info ] [MainThread]: python version: 3.12.3
+[0m22:27:02.655303 [info ] [MainThread]: python path: /home/jako/Desktop/Data_Solutions/calgary_project/cenv/bin/python3.12
+[0m22:27:02.656720 [info ] [MainThread]: os info: Linux-6.8.0-45-generic-x86_64-with-glibc2.39
+[0m22:27:02.716950 [info ] [MainThread]: Using profiles dir at /home/jako/.dbt
+[0m22:27:02.717598 [info ] [MainThread]: Using profiles.yml file at /home/jako/.dbt/profiles.yml
+[0m22:27:02.718328 [info ] [MainThread]: Using dbt_project.yml file at /home/jako/Desktop/Data_Solutions/calgary_project/dbt/dbt_project.yml
+[0m22:27:02.736238 [info ] [MainThread]: adapter type: postgres
+[0m22:27:02.736812 [info ] [MainThread]: adapter version: 1.9.1
+[0m22:27:02.737276 [info ] [MainThread]: Configuration:
+[0m22:27:02.737708 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m22:27:02.738162 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m22:27:02.738831 [info ] [MainThread]: Required dependencies:
+[0m22:27:02.739281 [debug] [MainThread]: Executing "git --help"
+[0m22:27:02.751778 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m22:27:02.752851 [debug] [MainThread]: STDERR: "b''"
+[0m22:27:02.753607 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m22:27:02.754637 [info ] [MainThread]: Connection:
+[0m22:27:02.756276 [info ] [MainThread]:   host: 52.28.31.202
+[0m22:27:02.758265 [info ] [MainThread]:   port: 5432
+[0m22:27:02.760698 [info ] [MainThread]:   user: creditdb
+[0m22:27:02.762104 [info ] [MainThread]:   database: creditdb
+[0m22:27:02.763414 [info ] [MainThread]:   schema: bronze
+[0m22:27:02.764649 [info ] [MainThread]:   connect_timeout: 10
+[0m22:27:02.765811 [info ] [MainThread]:   role: None
+[0m22:27:02.766775 [info ] [MainThread]:   search_path: None
+[0m22:27:02.767743 [info ] [MainThread]:   keepalives_idle: 0
+[0m22:27:02.768681 [info ] [MainThread]:   sslmode: None
+[0m22:27:02.769736 [info ] [MainThread]:   sslcert: None
+[0m22:27:02.770714 [info ] [MainThread]:   sslkey: None
+[0m22:27:02.771765 [info ] [MainThread]:   sslrootcert: None
+[0m22:27:02.774416 [info ] [MainThread]:   application_name: dbt
+[0m22:27:02.775991 [info ] [MainThread]:   retries: 1
+[0m22:27:02.777743 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m22:27:02.969062 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m22:27:03.159320 [debug] [MainThread]: Using postgres connection "debug"
+[0m22:27:03.160200 [debug] [MainThread]: On debug: select 1 as id
+[0m22:27:03.160945 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m22:27:03.847997 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "52.28.31.202", port 5432 failed: FATAL:  password authentication failed for user "creditdb"
+connection to server at "52.28.31.202", port 5432 failed: FATAL:  password authentication failed for user "creditdb"
+
+[0m22:27:04.094148 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m22:27:04.095524 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m22:27:04.096732 [debug] [MainThread]: On debug: No close available on handle
+[0m22:27:04.097595 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m22:27:04.098713 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m22:27:04.099637 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </home/jako/Desktop/Data_Solutions/calgary_project/dbt/dbt_project.yml> not found
+
+[0m22:27:04.100646 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  connection to server at "52.28.31.202", port 5432 failed: FATAL:  password authentication failed for user "creditdb"
+  connection to server at "52.28.31.202", port 5432 failed: FATAL:  password authentication failed for user "creditdb"
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m22:27:04.102836 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 1.5866481, "process_in_blocks": "10504", "process_kernel_time": 0.24567, "process_mem_max_rss": "115348", "process_out_blocks": "24", "process_user_time": 2.162096}
+[0m22:27:04.104241 [debug] [MainThread]: Command `dbt debug` failed at 22:27:04.103967 after 1.59 seconds
+[0m22:27:04.105390 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m22:27:04.107236 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70d489cef140>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70d48ab2ede0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70d48ab2f380>]}
+[0m22:27:04.109058 [debug] [MainThread]: Flushing usage events
+[0m22:27:04.913102 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:27:12.879888 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x796602b5b6b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x796602913da0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x796602912630>]}
+
+
+============================== 22:27:12.883799 | 8f74f2da-6834-48b6-8179-9cd77dfcf28b ==============================
+[0m22:27:12.883799 [info ] [MainThread]: Running with dbt=1.10.15
+[0m22:27:12.884466 [debug] [MainThread]: running dbt with arguments {'target_path': 'None', 'indirect_selection': 'eager', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'printer_width': '80', 'introspect': 'True', 'log_path': 'logs', 'quiet': 'False', 'write_json': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'debug': 'False', 'use_experimental_parser': 'False', 'invocation_command': 'dbt init calgary_dbt', 'profiles_dir': '/home/jako/.dbt', 'partial_parse': 'True', 'cache_selected_only': 'False', 'empty': 'None', 'no_print': 'None', 'log_format': 'default', 'warn_error': 'None', 'log_cache_events': 'False', 'fail_fast': 'False', 'version_check': 'True'}
+[0m22:27:12.897282 [info ] [MainThread]: A project called calgary_dbt already exists here.
+[0m22:27:12.898464 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.09306411, "process_in_blocks": "0", "process_kernel_time": 0.17357, "process_mem_max_rss": "100428", "process_out_blocks": "8", "process_user_time": 1.850419}
+[0m22:27:12.899079 [debug] [MainThread]: Command `dbt init` succeeded at 22:27:12.898959 after 0.09 seconds
+[0m22:27:12.899524 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x796601e6b980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x796602913da0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7966020b9e20>]}
+[0m22:27:12.900015 [debug] [MainThread]: Flushing usage events
+[0m22:27:13.420312 [debug] [MainThread]: An error was encountered while trying to flush usage events

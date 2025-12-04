@@ -22,7 +22,7 @@ def fetch_data(limit=50000):
         all_rows.extend(data)
         offset +=limit
 
-    df = pd.DataFrame(all_rows)
+    df = pd.json_normalize(all_rows)
     return df
 
 if __name__ == "__main__":
